@@ -1,7 +1,27 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.2/schema.json",
-    "version": "v1.2",
-    "name": "PeacockSaltCopilot",
-    "description": "Declarative agent created with Teams Toolkit",
-    "instructions": "$[file('instruction.txt')]"
+  "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.2/schema.json",
+  "version": "v1.2",
+  "name": "PeacockSaltCopilot",
+  "description": "Declarative agent created with Teams Toolkit",
+  "instructions": "$[file('instruction.txt')]",
+  "conversation_starters": [
+    {
+      "title": "Title",
+      "text": "text"
+    },
+    {
+      "title": "Title",
+      "text": "Text"
+    }
+  ],
+  "capabilities": [
+    {
+      "name": "OneDriveAndSharePoint",
+      "items_by_url": [
+        {
+          "url": "https://jcpltd-my.sharepoint.com/my?id=%2Fpersonal%2Fotto%5Fjonas%5Fpeacocksalt%5Fco%5Fuk%2FDocuments%2FDocuments%2Fpeacockgpt%2Fdata%2Ftraining%2Ddocuments%2Ftext&login_hint=otto%2Ejonas%40peacocksalt%2Eco%2Euk"
+        }
+      ]
+    }
+  ]
 }
